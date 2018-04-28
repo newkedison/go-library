@@ -13,6 +13,6 @@ go get -u github.com/newkedison/go-library
 
 
 
-### Licence
+### License
 
 [BSD 3-Clause License](https://github.com/newkedison/go-library/blob/master/LICENSE)
