@@ -8,6 +8,21 @@
   version = "v1.1.0"
 
 [[projects]]
+  name = "github.com/go-redis/redis"
+  packages = [
+    ".",
+    "internal",
+    "internal/consistenthash",
+    "internal/hashtag",
+    "internal/pool",
+    "internal/proto",
+    "internal/singleflight",
+    "internal/util"
+  ]
+  revision = "877867d2845fbaf86798befe410b6ceb6f5c29a3"
+  version = "v6.10.2"
+
+[[projects]]
   name = "github.com/pmezard/go-difflib"
   packages = ["difflib"]
   revision = "792786c7400a136282c1664665ae0a8db921c6c2"
@@ -22,6 +37,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "a3f0936778bf7527e2d281c9627a81eef5b758c989349ae8b3e3d62e2a720880"
+  inputs-digest = "1d3fd888a2c5413af1d764bf3ad6be949b8e189d4dcbd4d77465d3ef2ea5c675"
   solver-name = "gps-cdcl"
   solver-version = 1
